@@ -25,8 +25,8 @@ def main():
 
 def run(conn):
 
-    client = MailChimp(mc_api='f58242fe0f731e6a26fb1ffb7a27225b-us2', mc_user='Simon Pulsifer')
-    list_id = 'db329a5676'
+    client = MailChimp(mc_api='xxxxxxxxxxxxxxxxxxxx', mc_user='uuuuuuuuuuuuuuu')
+    list_id = 'lllllllllllllll'
 
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
